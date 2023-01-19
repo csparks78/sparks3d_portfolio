@@ -17,13 +17,14 @@ import {
 import { Link, NavLink } from 'react-router-dom'
 const Sidebar = () => {
     const [showNav, setShowNav] = useState(false);
+    
     return (
         <div className="nav-bar">
             <Link className="logo"
                 to="/">
 
                 <img src={LogoS} alt="Logo" />
-                <img className="sub-logo" src={LogoSubtitle} alt="slobodan" />
+                <img className="sub-logo" src={LogoSubtitle} alt="Sparks" />
             </Link>
             <nav>
                 <NavLink
@@ -36,14 +37,16 @@ const Sidebar = () => {
                 <NavLink
                     exact="true"
                     activeclassname="active"
-                    to="/"
+                    className="about-link"
+                    to="/about"
                     onClick={() => setShowNav(false)}>
                     <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
                 </NavLink>
                 <NavLink
                     exact="true"
                     activeclassname="active"
-                    to="/"
+                    className="contact-link"
+                    to="/contact"
                     onClick={() => setShowNav(false)}>
                     <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
                 </NavLink>
