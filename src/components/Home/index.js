@@ -16,7 +16,7 @@ const Home = () => {
                     liff
                     </div>
                     <div className="sparks">
-                    <img src={S_logo} alt='developer' />
+                    <img className="S" src={S_logo} alt='developer' />
                     parks,
                     </div>
                     </li>
