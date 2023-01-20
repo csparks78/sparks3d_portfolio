@@ -6,12 +6,12 @@
         transform : translateY(-50%);
         width     : 50%;
         max-height: 90%;
-        padding-top: 25%;   //Need to take this off latrer??
+       // padding-top: 25%;   //Need to take this off latrer??
     }
 
     h1 {
         color      : #fff;
-        font-size  : 56px;
+        font-size  : 40px;
         line-height: 53px;
         margin     : 0;
         font-family: 'Coolvetica';
@@ -24,8 +24,8 @@
             color      : #fff;
             font-size  : 18px;
             position   : absolute;
-            //margin-top : 20px;
-            //left       : 15px;
+            margin-top : -40px;
+            left       : -15px;
             opacity    : 0.6;
         }
 
