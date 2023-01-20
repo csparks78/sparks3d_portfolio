@@ -8,6 +8,15 @@
         max-height: 90%;
        // padding-top: 25%;   //Need to take this off latrer??
     }
+    .cliffSparks{
+        display: inline-block;
+
+    }
+    .cliffSparks,
+    .cliff,
+    .sparks {
+        display: inline-block;
+    }
 
     h1 {
         color      : #fff;
@@ -44,7 +53,7 @@
         img {
             margin-left    : 20px;
             opacity        : 0;
-            width          : 30px;
+            width          : 40px;
             height         : auto;
             animation      : rotateIn 1s linear both;
             animation-delay: 1.4s;

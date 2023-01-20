@@ -17,7 +17,7 @@ import {
 import { Link, NavLink } from 'react-router-dom'
 const Sidebar = () => {
     const [showNav, setShowNav] = useState(false);
-    
+
     return (
         <div className="nav-bar">
             <Link className="logo"
@@ -79,8 +79,15 @@ const Sidebar = () => {
                     </a>
                 </li>
             </ul>
-
+            <FontAwesomeIcon
+                onClick={() => setShowNav(true)}
+                icon={faBars}
+                color="#ffd700"
+                size="3x"
+                className='hamburger-icon' />
+                
         </div>
+        
     )
 }
 

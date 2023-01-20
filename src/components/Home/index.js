@@ -10,12 +10,18 @@ const Home = () => {
         <div className="container home-page">
             <div className="text-zone">
                 <h1>Hello, <br /> I'm
+                <li className="cliffSparks">
+                    <div className="cliff">
                     <img className="C" src={C_logo} alt='developer' />
                     liff
+                    </div>
+                    <div className="sparks">
                     <img src={S_logo} alt='developer' />
-                    parks
+                    parks,
+                    </div>
+                    </li>
                     <br />
-                    aspiring web developer
+                    an aspiring web developer.
                 </h1>
                 <h2> Recently graduated Computer Science student</h2>
                 <Link to="/contact" className='flat-button'>CONTACT ME</Link>
