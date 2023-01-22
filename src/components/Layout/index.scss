@@ -20,8 +20,8 @@
 }
 
 .top-html {
-  margin-left: 10%;
   position   : initial;
+   margin-left: 8%;
 }
 
 .bottom-tag-html {
@@ -123,6 +123,7 @@
 }
 
 @media screen and (max-width: 800px) {
+  
   .page {
     position: initial;
   }
@@ -135,10 +136,13 @@
     left: 40px;
   }
 
+
   .top-html {
+
+    position   : initial;
     margin-left: 20px;
     top        : 15%;
-    position   : initial;
+    
   }
 
   .container {
