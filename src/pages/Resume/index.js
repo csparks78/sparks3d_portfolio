@@ -6,10 +6,13 @@ import './index.scss'
 const Resume = () => {
 
   return (
-    <div>
+    <>
     <img className="resume" src={resume} alt="resume" ></img>
-    <button>Download</button>
-    </div>
+    
+    <button className='download-button'>Download</button>
+    
+    </>
+    
   )
 }
 export default Resume

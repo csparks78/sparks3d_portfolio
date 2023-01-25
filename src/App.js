@@ -2,7 +2,7 @@ import { Route, Routes } from 'react-router-dom'
 import Layout from './components/Layout'
 import Home from './components/Home'
 import Contact from './components/Contact'
-import Resume from './components/Resume'
+import Resume from './pages/Resume'
 import './App.scss';
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
         </Route>
       </Routes>
     </>
-  )
+  );
 }
 
 export default App;
