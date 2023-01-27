@@ -1,13 +1,35 @@
 .resume-container{
 
 }
-.download-button{
-
+.button{
+    color: #ffffff;
+    background-color: transparent;
+        font-size: 13px;
+        font-weight: 400;
+        letter-spacing: 4px;
+        font-family: sans-serif;
+        text-decoration: none;
+        padding: 10px 18px;
+        border: 2px solid #1430f6;
+        margin: 25px 0px;
+        float: left;
+        animation: fadeInAnimation 1s 1.8s backwards;
+        white-space: nowrap;
+        border-radius: 10px;
+        &:hover {
+            background: #1430f6;
+            color: rgb(255, 255, 255);
+        }
 }
 .resume {
-    
-    
+    overflow: ;
+    width: 600px;
+    height: 800px;
 
+}
+.pdfViewer{
+    width: auto;
+    height: auto;
 }
 
 @media screen and (max-width: 800px) {

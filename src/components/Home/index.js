@@ -25,8 +25,8 @@ const Home = () => {
                     an aspiring web developer.
                 </h1>
                 <h2> Recently graduated Computer Science student</h2>
-                <Link to="/contact" className='flat-button-contact'>CONTACT ME</Link>
-                <Link to="/resume" className='flat-button-resume'>RESUME</Link>
+                <Link to="/contact" className='button flat-button-contact'>CONTACT ME</Link>
+                <Link to="/resume" className='button flat-button-resume'>RESUME</Link>
             </div>
         </div>
     )

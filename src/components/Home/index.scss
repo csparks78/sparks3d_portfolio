@@ -83,7 +83,7 @@
         animation: fadeIn 1s 1.8s backwards;
     }
 
-    .flat-button-contact {
+    .button{
         color: #ffffff;
         font-size: 13px;
         font-weight: 400;
@@ -104,27 +104,48 @@
         }
     }
 
-    .flat-button-resume {
-        color: #ffffff;
-        font-size: 13px;
-        font-weight: 400;
-        letter-spacing: 4px;
-        font-family: sans-serif;
-        text-decoration: none;
-        padding: 10px 18px;
-        margin: 25px 15px 25px 25px;
-        border: 2px solid #1430f6;
-        
-        float: left;
-        animation: fadeInAnimation 1s 1.8s backwards;
-        white-space: nowrap;
-        border-radius: 10px;
+    // .flat-button-contact {
+    //     color: #ffffff;
+    //     font-size: 13px;
+    //     font-weight: 400;
+    //     letter-spacing: 4px;
+    //     font-family: sans-serif;
+    //     text-decoration: none;
+    //     padding: 10px 18px;
+    //     border: 2px solid #1430f6;
+    //     margin: 25px 0px;
+    //     float: left;
+    //     animation: fadeInAnimation 1s 1.8s backwards;
+    //     white-space: nowrap;
+    //     border-radius: 10px;
 
-        &:hover {
-            background: #1430f6;
-            color: rgb(255, 255, 255);
-        }
-    }
+    //     &:hover {
+    //         background: #1430f6;
+    //         color: rgb(255, 255, 255);
+    //     }
+    // }
+
+    // .flat-button-resume {
+    //     color: #ffffff;
+    //     font-size: 13px;
+    //     font-weight: 400;
+    //     letter-spacing: 4px;
+    //     font-family: sans-serif;
+    //     text-decoration: none;
+    //     padding: 10px 18px;
+    //     margin: 25px 15px 25px 25px;
+    //     border: 2px solid #1430f6;
+        
+    //     float: left;
+    //     animation: fadeInAnimation 1s 1.8s backwards;
+    //     white-space: nowrap;
+    //     border-radius: 10px;
+
+    //     &:hover {
+    //         background: #1430f6;
+    //         color: rgb(255, 255, 255);
+    //     }
+    // }
 }
 
 @media screen and (max-width: 800px) {
