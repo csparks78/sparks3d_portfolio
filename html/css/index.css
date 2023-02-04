@@ -1,0 +1,113 @@
+body {
+    background-color: #022c43;
+    margin-left: 100px;
+}
+
+/* SIDEBAR AREA ------------------------------------*/
+/* -------------------------------------------------*/
+
+.sidebar {
+    position: fixed;
+    margin: 0px;
+    text-align: center;
+    background-color: #181818;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 50px;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo {
+    display: block;
+    position: absolute;
+    top: 0%;
+}
+
+#cs-logo {
+    display: flex;
+    width: 50px;
+    margin-top: 20px;
+}
+
+#sparks {
+    display: flex;
+    width: 50px;
+    padding-top: 10px;
+}
+
+.navagation {
+    margin-top: auto;
+}
+
+.content-area .sidebar .navagation a {
+
+    padding: 10px;
+    text-decoration: none;
+    color: #818181;
+    display: flex;
+    font-size: 20px;
+    top: 50%;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: 50px;
+
+}
+
+.content-area .sidebar .social-icons a {
+    background-color: #818181;
+    padding: 3px;
+}
+
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.fa-github {
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.fa-linkedin {
+    border-radius: 3px;
+}
+
+/* END OF SIDEBAR---------------------------------*/
+/* -----------------------------------------------*/
+
+.tags-html {
+    font-family: "Comic Sans MS", "Apple Chancery", "Bradley Hand";
+    color: #dad3d3;
+    position: fixed;
+    margin: 0px;
+    height: 100%;
+    display: flex;
+    top: 0;
+    height: 100%;
+    width: 60px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text-area {
+    display: inline-block;
+    position: absolute;
+    color: rgb(201, 57, 57);
+    align-items: center;
+    justify-content: center;
+    top: 50px;
+    left: 200px;
+    background-color: #dad3d3;
+}
